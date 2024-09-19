@@ -33,7 +33,7 @@ sudo systemctl start manticore
 python3 output_es.py
 ```
 
-5. 本脚本运行后会在当前文件夹输出生成的JSON文件，其中包含了ES索引的mapping和documents。Manticoresearch将插入所有JSON的值。
+5. 本脚本运行后会默认在nested_data文件夹输出生成的JSON文件，其中包含了ES索引的mapping和documents。Manticoresearch将插入所有JSON的值。
 
 ## Check Your Results in Manticoresearch
 
