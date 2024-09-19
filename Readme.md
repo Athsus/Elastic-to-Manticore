@@ -16,9 +16,16 @@ pip3 install manticoresearch elasticsearch
 
 3. 启动es和ms的服务
 
+Linux(Debian/Ubuntu)
+```bash
+sudo systemctl start elasticsearch
+```
+
 ```bash
 sudo systemctl start manticore
 ```
+其它系统可自行GPT。
+
 
 4. 运行脚本
 
