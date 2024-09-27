@@ -1,3 +1,6 @@
+# 脚本使用和配置文档见 README.md
+# https://github.com/Athsus/Elastic-to-Manticore
+
 import os
 import json
 from elasticsearch import Elasticsearch, helpers
@@ -191,6 +194,7 @@ def output_es_data():
 def migrate_to_manticore():
     print("============迁移至ManticoreSearch============")
     # 目录路径
+    global output_folder
     mapping_folder = output_folder
     document_folder = output_folder
 
