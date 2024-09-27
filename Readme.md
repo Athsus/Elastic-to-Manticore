@@ -30,7 +30,7 @@ sudo systemctl start manticore
 4. 运行脚本
 
 ```bash
-python3 output_es.py
+python3 elastic_to_manticore.py
 ```
 
 5. 本脚本运行后会默认在nested_data文件夹输出生成的JSON文件，其中包含了ES索引的mapping和documents。Manticoresearch将插入所有JSON的值。
